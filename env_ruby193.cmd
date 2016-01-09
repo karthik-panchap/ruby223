@@ -9,8 +9,8 @@ echo .
 set path=%windir%;%windir%\system32;%root%;%root%\bin
 
 rem we want git on our path
-set path=%path%;c:\karthik\media\apps\git\cmd
+rem set path=%path%;c:\karthik\media\apps\git\cmd
 
 rem we want console tools on our path
-set path=%path%;%tools%
+rem set path=%path%;%tools%
 
