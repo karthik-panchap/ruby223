@@ -6,7 +6,7 @@ set ROOT=%cd%
 echo ROOT is: '%root%'
 echo .
 
-set path=%windir%;%windir%\system32;%root%;%root%\bin
+set path=%root%;%root%\bin;%path%
 
 rem we want git on our path
 rem set path=%path%;c:\karthik\media\apps\git\cmd
