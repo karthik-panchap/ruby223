@@ -1,0 +1,16 @@
+c:/Users/karthik/GitHub/ruby223/bin/ruby.exe -r ./siteconf20160108-20208-6yoaqe.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating byebug-x64-mingw32.def
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20160108-20208-txob6n/byebug
