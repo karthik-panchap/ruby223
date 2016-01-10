@@ -1,0 +1,17 @@
+c:/Users/karthik/GitHub/ruby223/bin/ruby.exe -r ./siteconf20160109-11948-w1iuyc.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating hitimes-x64-mingw32.def
+compiling hitimes.c
+compiling hitimes_instant_clock_gettime.c
+compiling hitimes_instant_osx.c
+compiling hitimes_instant_windows.c
+compiling hitimes_interval.c
+compiling hitimes_stats.c
+linking shared-object hitimes/2.2/hitimes.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hitimes.so ./.gem.20160109-11948-s7co0c/hitimes/2.2
