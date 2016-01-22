@@ -1,0 +1,18 @@
+c:/Users/karthik/GitHub/ruby223/bin/ruby.exe -r ./siteconf20160121-4208-zbd7fb.rb extconf.rb
+checking for labs() in stdlib.h... yes
+checking for llabs() in stdlib.h... yes
+checking for struct RRational in ruby.h... no
+checking for rb_rational_num() in ruby.h... yes
+checking for rb_rational_den() in ruby.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating bigdecimal-x64-mingw32.def
+compiling bigdecimal.c
+linking shared-object bigdecimal.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20160121-4208-j616tg
+installing default bigdecimal libraries

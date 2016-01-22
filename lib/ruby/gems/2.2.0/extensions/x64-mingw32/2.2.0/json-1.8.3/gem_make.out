@@ -1,0 +1,9 @@
+c:/Users/karthik/GitHub/ruby223/bin/ruby.exe -r ./siteconf20160121-4208-1ccr0en.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install

@@ -1,0 +1,13 @@
+c:/Users/karthik/GitHub/ruby223/bin/ruby.exe -r ./siteconf20160121-4208-gfx8gu.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating console-x64-mingw32.def
+compiling console.c
+linking shared-object io/console.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 console.so ./.gem.20160121-4208-1rkcyok/io
+installing default console libraries
